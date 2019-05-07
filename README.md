@@ -1,6 +1,4 @@
 
-
-
 ## Requirements
 
 - Python 3
@@ -14,7 +12,6 @@ Print parameters:
 ```bash
 ./train.py --help
 ```
-
 ```
 optional arguments:
   -h, --help            show this help message and exit
@@ -57,5 +54,3 @@ Train:
 ```bash
 ./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
 ```
-
-Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
